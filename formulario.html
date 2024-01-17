@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formuláio</title>
+</head>
+<body>
+    <container id="estrutura">
+
+        <form action="" method="get" id="form">
+            <h1>CADASTRO</h1>
+            <section id="nome">
+                
+                <input type="text" name="nome-completo" id="nome-completo" placeholder="Nome Completo"
+                class="input-padrao">
+            
+            </section>
+
+            
+
+            <section id="email"
+            >
+                
+                <input type="email" name="email"  placeholder="Email"
+                class="input-padrao">
+            
+            </section>
+
+            
+
+            <section id="tel"
+            >
+                
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone"class="input-padrao">
+            
+            </section>
+                     
+            
+            <section id="sexo">
+
+                <label for="sexo" id="label-sexo">Sexo</label>
+                
+
+                <input type="radio" name="sexo" id="feminino">
+                <label for="feminino" required >Feminino</label>
+                
+                <input type="radio" name="sexo" id="masculino">
+                <label for="masculino" required >Masculino</label>
+
+            </section>
+
+            <section id="data-nascimento">
+
+                <label for="nascimento">Data de Nascimento</div>
+
+                    <br>
+                    <br>
+
+                <input type="date" name="nascimento" id="nascimento"
+                class="input-padrao">
+
+            
+            </section>
+
+            <section id="cidade">
+
+                <input type="text" name="cidade" id="" placeholder="Cidade"
+                class="input-padrao">
+
+            </section>
+
+            <section id="estado">
+
+                <input type="text" name="estado" id="" placeholder="Estado"
+                class="input-padrao">
+
+            </section>
+
+            <section id="endereco">
+
+                <input type="text" name="endereco" id="" placeholder="Endereço"class="input-padrao">
+
+            </section>
+            <input type="submit" value="enviar"
+            id="btn-submit">
+        </form>
+    </container>
+</body>
+</html>

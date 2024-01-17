@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(128, 0, 128, 0.671), rgba(0, 0, 255, 0.747));
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#estrutura{
+    background-color: rgba(54, 53, 53, 0.664);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    padding: 5px;   
+    align-items: center;
+    justify-content: center;
+}
+
+.input-padrao{
+    background-color: rgba(0, 0, 0, 0.925);
+    padding: 10px;
+    height: fit-content;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-padrao:hover{
+    background-color: rgb(216, 213, 209);
+    transform: scale(1.2);
+}
+
+#label-sexo{
+    color: aqua;
+}
+
+#sexo{
+    color: aqua;
+    gap: 10px;
+}
+
+#sexo:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
+#nascimento{
+    color: gray;  
+}
+
+#btn-submit{
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(3, 3, 8, 0.712);
+    left: 50px;
+    margin-left: 35px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#btn-submit:hover{
+    background-color: #fff;
+    color: black;
+}
